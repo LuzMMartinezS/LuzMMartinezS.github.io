@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pokedex.css">
+    <title>Pokédex</title>
+</head>
+<body>
+    <div class="d1">
+        <div class="d2">
+            <div class="d9">
+                <div class="d10"></div>
+            </div>
+        </div>
+        <div class="d3">
+        </div>
+        <div class="d4"></div>
+        <div class="d5"></div>
+        <div class="d6"></div>
+        <div class="d7">
+            <img class="i1" src="./pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+            <p class="p1" id="pon">Welcome!</p>
+        </div>
+        <div class="d8 cr"></div>
+        <div class="d8 ca"></div>
+        <div class="d8 cv"></div>
+        <div class="d8 cr2"></div>
+        <div class="d11">
+            <div class="t1" id="ptype">Type: </div>
+            <div class="t2">Stats: </div>
+            <div class="t3">Moves: </div>
+            <div class="t4" id="w">Weight: </div>
+            <div class="t5" id="h">Height: </div>
+            <p class="m1" id="Mov1"></p>
+            <p class="m2" id="Mov2"></p>
+            <p class="m3" id="Mov3"></p>
+            <p class="m4" id="Mov4"></p>
+        <!-- HP -->
+        <label class="bp1" for="Hp">Hp</label>
+        <progress class="bar-hp" id="Hp" max="255" value="0"></progress>
+        <p class="s1" id="Hpl"></p>
+
+        <!-- ATTACK -->
+        <label class="bp2" for="Attack">Attack</label>
+        <progress class="bar-a" id="Attack" max="255" value="0"></progress>
+        <p class="s2" id="Attackl"></p>
+        <!-- DEFENSE -->
+
+        <label class="bp3" for="Defense">Defense</label>
+        <progress class="bar-d" id="Defense" max="255" value="0"></progress>
+        <p class="s3" id="Defensel"></p>
+
+        <!-- SPECIAL-ATTACK -->
+        <label class="bp4" for="SAttack">Special atck</label>
+        <progress class="bar-sa" id="SAttack" max="255" value="0"></progress>
+        <p class="s4" id="SAttackl"></p>
+        <!-- SPECIAL-DEFENSE -->
+        <label class="bp5" for="SDefense">Special dfse</label>
+        <progress class="bar-sd" id="SDefense" max="255" value="0"></progress>
+        <p class="s5" id="SDefensel"></p>
+        <!-- SPEED -->
+        <label class="bp6" for="Speed">Speed</label>
+        <progress class="bar-s" id="Speed" max="255" value="0"></progress>
+        <p class="s6" id="Speedl"></p>
+
+        </div>
+        <input class="in1" type="text" placeholder=" Pokemon's name or number" id="pokeName" name="pokeName">
+        <button class="btn1" onclick="fetchPokemon()">Search</button>
+       
+    </div>
+    
+</body>
+
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>

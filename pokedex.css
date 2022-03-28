@@ -1,0 +1,509 @@
+@font-face {
+    font-family: VT323;
+    src: url('./VT323/VT323-Regular.ttf') format('truetype');
+
+  }
+
+
+*{
+    font-family: VT323;
+}
+
+
+
+
+.d1
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(hsla(216, 99%, 46%, 0.5), hsla(66, 99%, 46%, 0.5)), url(./pokemonfondo.jpg);
+    position: absolute;
+}
+
+.d2
+{
+    width: 35vw;
+    height: 90vh;
+    position: absolute;
+    left: 13vw;
+    top: 5vh;
+    background-color: rgb(220, 10, 45);
+    border-radius: 15px 15px 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.d4
+{
+    width: 35vw;
+    height: 80vh;
+    position: absolute;
+    left: 48vw;
+    bottom: 4vh;
+    background-color: rgb(220, 10, 45);
+    clip-path: polygon(0.5vw 0.5vh, 0.5vw 79.5vh, 34.8vw 79.5vh, 34.8vw 10.5vh, 25vw 10.5vh, 12vw 0.5vh );
+    border-bottom-right-radius: 25px;
+}
+
+.d3
+{
+    width: 35vw;
+    height: 80vh;
+    position: absolute;
+    left: 48vw;
+    bottom: 4vh;
+    background-color: rgb(0, 0, 0);
+    clip-path: polygon(0 0, 0 80vh, 35vw 80vh, 35vw 10vh, 25vw 10vh, 12vw 0vh );
+    border-bottom-right-radius: 15px;
+    
+}
+
+.d5
+{
+    width: 5vw;
+    height: 80vh;
+    position: absolute;
+    left: 45vw;
+    top: 15vh;
+    background-color: rgb(220, 10, 45);
+    border-radius: 25px 25px 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+}
+
+.d6
+{
+    width: 6vw;
+    height: 6vw;
+    left: 15vw;
+    top: 8vh;
+    position: absolute;
+    border-radius: 6vw;
+    background-color: rgb(154, 167, 181);
+    border-style: solid;
+
+}
+
+.d7
+{
+    width: 5vw;
+    height: 5vw;
+    left: 15.5vw;
+    top: 9vh;
+    position: absolute;
+    border-radius: 5vw;
+    background-color: rgb(78, 210, 250);
+    border-style: solid;
+
+}
+
+.d8
+{  
+    width: 1vw;
+    height: 1vw;
+    border-radius: 1vw;
+    border-style: solid;
+}
+
+.d9
+{
+    width: 25vw;
+    height: 20vw;
+    left: 3vw;
+    top: 18vh;
+    position: absolute;
+    border-radius: 0.5vw;
+    border-bottom-left-radius: 5vw;
+    background-color: rgb(167, 181, 186);
+    border-style: solid;
+
+}
+
+.d10
+{
+    width: 20vw;
+    height: 15vw;
+    left: 2.5vw;
+    top: 5vh;
+    position: absolute;
+    border-radius: 1vw;
+    background-color: rgb(254, 255, 255);
+    border-style: solid;
+}
+
+.d11
+{
+    width: 25vw;
+    height: 28vw;
+    left: 54vw;
+    top: 30vh;
+    position: absolute;
+    border-radius: 1vw;
+    background-color: rgb(43, 43, 55);
+    border-style: solid;
+}
+.cr
+{
+    background-color: red;
+    position: absolute;
+    top:10vh;
+    left: 23vw;
+}
+
+.ca
+{
+    background-color: yellow;
+    position: absolute;
+    top:10vh;
+    left: 25vw;
+}
+
+.cv
+{
+    background-color: rgb(127, 192, 28);
+    position: absolute;
+    top:10vh;
+    left: 27vw;
+}
+
+.cr2
+{
+    background-color: red;
+    position: absolute;
+    top:62vh;
+    left: 20vw;
+}
+
+
+.i1
+{
+
+    position: absolute;
+    top:27vh;
+    left: 7.5vw;
+    width: 12vw;
+    
+}
+
+.in1
+{
+
+    position: absolute;
+    top:72vh;
+    left: 17vw;
+    width: 15vw;
+    height: 5vh;
+    border-radius: 10vw;
+    font-size: large;
+    background-color: rgb(24, 24, 39);
+    color: blanchedalmond;
+    text-align: center;
+    
+}
+
+.btn1
+{
+    position: absolute;
+    top:70vh;
+    left: 33vw;
+    width: 10vw;
+    height: 10vh;
+    border-radius: 1vw;
+    font-size: 2vw;
+    background-color: rgb(46, 180, 242);
+    color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.p1
+{
+    /*Nombre de pokemon*/
+    position: absolute;
+    top:15vh;
+    left: 8vw;
+    font-size: 3vw;
+    color: rgb(0, 0, 0);
+    
+}
+
+.bp1
+{
+    position: absolute;
+    top: 12.7vh;
+    left: 1vw;
+    font-size: 1.3vw;
+    color: antiquewhite;
+}
+
+.bar-hp
+{
+    position: absolute;
+    left:8vw;
+    top: 13.5vh;
+}
+
+.s1
+{
+     position: absolute;
+    top:9.5vh;
+    left: 20.5vw;
+    font-size: 1.5vw;
+    color: azure;
+
+}
+
+
+.bp2
+{
+    position: absolute;
+    top: 15.7vh;
+    left: 1vw;
+    font-size: 1.3vw;
+    color: antiquewhite;
+}
+.bar-a
+{
+    position: absolute;
+    left:8vw;
+    top: 16vh;
+}
+
+.s2
+{
+     position: absolute;
+    top:12vh;
+    left: 20.5vw;
+    font-size: 1.5vw;
+    color: azure;
+
+}
+
+.bp3
+{
+    position: absolute;
+    top: 18.2vh;
+    left: 1vw;
+    font-size: 1.3vw;
+    color: antiquewhite;
+}
+.bar-d
+{
+    position: absolute;
+    left:8vw;
+    top: 18.7vh;
+}
+
+.s3
+{
+     position: absolute;
+    top:14.5vh;
+    left: 20.5vw;
+    font-size: 1.5vw;
+    color: azure;
+
+}
+
+
+.bp4
+{
+    position: absolute;
+    top: 21vh;
+    left: 1vw;
+    font-size: 1.3vw;
+    color: antiquewhite;
+}
+.bar-sa
+{
+    position: absolute;
+    left:8vw;
+    top: 21.4vh;
+}
+
+.s4
+{
+     position: absolute;
+    top:17.3vh;
+    left: 20.5vw;
+    font-size: 1.5vw;
+    color: azure;
+
+}
+
+.bp5
+{
+    position: absolute;
+    top: 23.7vh;
+    left: 1vw;
+    font-size: 1.3vw;
+    color: antiquewhite;
+}
+.bar-sd
+{
+    position: absolute;
+    left:8vw;
+    top: 24.3vh;
+}
+
+.s5
+{
+     position: absolute;
+    top:20vh;
+    left: 20.5vw;
+    font-size: 1.5vw;
+    color: azure;
+
+}
+
+.bp6
+{
+    position: absolute;
+    top: 26.7vh;
+    left: 1vw;
+    font-size: 1.3vw;
+    color: antiquewhite;
+}
+.bar-s
+{
+    position: absolute;
+    left:8vw;
+    top: 27vh;
+}
+
+.s6
+{
+     position: absolute;
+    top:23vh;
+    left: 20.5vw;
+    font-size: 1.5vw;
+    color: azure;
+
+}
+
+
+
+.t1
+{
+    color: aliceblue;
+    position: absolute;
+    top:2vh;
+    left: 1vw;
+    font-size: 2vw;
+  
+}
+
+.t2
+{
+    color: aliceblue;
+    position: absolute;
+    top:8vh;
+    left: 1vw;
+    font-size: 2vw;
+}
+
+.t3
+{
+    color: aliceblue;
+    position: absolute;
+    top:32vh;
+    left: 1vw;
+    font-size: 2vw;
+  
+}
+
+.t4
+{
+    color: aliceblue;
+    position: absolute;
+    top:53vh;
+    left: 1vw;
+    font-size: 2vw;
+  
+}
+
+.t5
+{
+    color: aliceblue;
+    position: absolute;
+    top:53vh;
+    left: 13vw;
+    font-size: 2vw;
+  
+}
+
+.m1
+{
+    color: deepskyblue;
+    position: absolute;
+    top:36vh;
+    left: 1vw;
+    font-size: 1.5vw;
+    border-style:solid ;
+    border-color: deepskyblue;
+    border-radius: 1.5vw;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;;
+}
+
+
+.m2
+{
+    color:rgb(255, 193, 36);
+    position: absolute;
+    top:42vh;
+    left: 1vw;
+    font-size: 1.5vw;
+    border-style:solid ;
+    border-color: rgb(255, 193, 36);
+    border-radius: 1.5vw;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;;
+}
+
+
+.m3
+{
+    color:chartreuse;
+    position: absolute;
+    top:36vh;
+    left: 12vw;
+    font-size: 1.5vw;
+    border-style:solid ;
+    border-color: chartreuse;
+    border-radius: 1.5vw;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;;
+}
+
+.m4
+{
+    color:fuchsia;
+    position: absolute;
+    top:42vh;
+    left: 12vw;
+    font-size: 1.5vw;
+    border-style:solid ;
+    border-color: fuchsia;
+    border-radius: 1.5vw;
+    padding-right: 0.5vw;
+    padding-left: 0.5vw;;
+}
+progress {
+    border-radius: 7px; 
+    width: 12vw;
+    height: 2vh;
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  progress::-webkit-progress-bar {
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+  }
+  progress::-webkit-progress-value {
+    background-color: rgb(255, 238, 0);
+    border-radius: 7px;
+  }
+  progress::-moz-progress-bar {
+    /* style rules */
+  }
+
